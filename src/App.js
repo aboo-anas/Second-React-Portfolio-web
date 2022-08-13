@@ -1,11 +1,17 @@
 import './App.scss';
-import 'bootstrap/dist/css/bootstrap.min.css'
-import { Navbar } from './components/Navbar/Navbar';
+import './index.scss'
+import { Routes, Route } from 'react-router-dom';
+import Layout from './components/Layout';
 
 
 function App() {
   return (
-    <Navbar/>
+    <>
+    <Routes>
+      <Route path='/' element={<Layout />} />
+    </Routes>
+    
+    </>
   );
 }
 

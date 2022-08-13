@@ -17,6 +17,25 @@ $primary-color: #ffd700;
   src: url('./assets/fonts/CoolveticaRg-Regular.woff') format('woff');
 }
 
+@font-face {
+  font-family: 'Ananda Black';
+  src: url('./assets/fonts/Ananda-Black-Personal-Use.ttf') format('ttf');
+}
+
+@font-face {
+  font-family: 'Ananda';
+  src: url('./assets/fonts/Ananda-Personal-Use.ttf') format('ttf');
+}
+
+@font-face {
+  font-family: 'Balleria';
+  src: url('./assets/fonts/Balleria-Free.ttf') format('ttf');
+}
+
+@font-face {
+  font-family: 'Sun Flower';
+  src: url('./assets/fonts/Sun-Flower.ttf') format('ttf');
+}
 input, textarea {
   font-family: 'Helvetical Neue';
 }
