@@ -1,7 +1,8 @@
 import './index.scss'
 import { Link, NavLink } from 'react-router-dom'
 import mylogo from '../../assets/images/logoM.png'
-import mysublogo from '../../assets/images/sublogo.jpg'
+import mysublogo from '../../assets/images/sublogo3.jpg'
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 
 const Sidebar = () => (
 
